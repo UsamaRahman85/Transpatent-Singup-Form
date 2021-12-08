@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand' , sans-serif;
+}
+
+.full-screen-container{
+    background-image: url(backgromd-image.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-container{
+ 
+    background-color:hsla(200, 68%, 31%, 0.493);
+    padding: 50px 30px;
+    min-width: 400px;
+    width: 50%;
+    max-width: 500px;
+    border-radius: 1.25rem;
+}
+.login-title{
+    color: rgb(253, 253, 253);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2rem;
+    font-size: 2.05rem;
+    font-weight: normal;
+}
+.input-group{
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+.all{
+    color: white;
+    font-weight:500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.box{
+    background: rgba(205, 207, 211, 0.568);
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    border-radius: .25rem;
+    padding:.5rem .25rem ;
+    font-weight: 600;
+}
+
+.login-button{
+    background: rgba(158, 211, 138, 0.685);
+    border: none;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    padding: .5rem .25rem;
+    border-radius: .25rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.767);
+    letter-spacing: .2rem;
+    outline: none;
+    margin-top: 1rem;
+}
+.login-button:hover{
+    background-color:rgba(88, 212, 94, 0.664) ;
+}
+
+
+
+
+
+
+
+
+
+
